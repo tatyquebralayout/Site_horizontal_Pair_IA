@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Insira a descrição do site aqui">
+    <title>Brutalist Horizontal Navigation</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon hamburger">&#9776;</div>
+        <nav class="menu hidden">
+            <ul>
+                <li data-section="home-section">Home</li>
+                <li data-section="services-section">Services</li>
+                <li data-section="about-us-section">About Us</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <section id="home-section" class="section active">
+            <header>Home</header>
+            <main>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non urna nec erat mollis ullamcorper. Morbi pretium lectus eu metus dictum, a facilisis magna dapibus. Integer non justo sed lorem fermentum faucibus.</main>
+            <footer>Footer</footer>
+        </section>
+        <section id="services-section" class="section hidden">
+            <header>Services</header>
+            <ul>
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>Consectetur adipiscing elit</li>
+                <li>Nullam non urna nec erat</li>
+                <li>Morbi pretium lectus</li>
+            </ul>
+            <footer>Footer</footer>
+        </section>
+        <section id="about-us-section" class="section hidden">
+            <header>About Us</header>
+            <main>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel neque non nulla dictum pharetra. Duis euismod, lectus ut scelerisque suscipit, massa quam ultrices urna, a tincidunt justo tortor id risus.</main>
+            <footer>Footer</footer>
+        </section>
+    </div>
+    <button class="nav-btn left-btn">&lt;</button>
+    <button class="nav-btn right-btn">&gt;</button>
+    <script src="js/script.js"></script>
+</body>
+</html>
